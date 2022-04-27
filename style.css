@@ -1,0 +1,114 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: chartreuse;
+}
+
+header .logo{
+    position: relative;
+    max-width: 80px;
+}
+
+header ul{
+    position:relative;
+    display: flex;
+}
+
+header ul li{
+    list-style: none;
+}
+
+header ul li a{
+    display: inline-block;
+    color: #333;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.textoprin {
+    position:relative;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:whitesmoke;
+}
+
+.textoprin .textobox{
+    position: relative;
+    max-width: 600px;
+}
+
+.textoprin .textobox h2{
+    color: #333;
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight:500;
+}
+
+.textoprin .textobox h2 span{
+    color: #017143;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.textoprin .textobox p{
+    color: #333;
+    text-align: initial;
+}
+
+.textoprin .textobox button{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #017143;
+    border-radius: 40px;
+    border-style: none;
+}
+
+.textoprin .textobox button a{
+    color: #fff;
+    font-weight: 500;
+    letter-spacing:1px;
+    text-decoration: none;
+}
+
+.textoprin .imgbox{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right:50px;
+    margin-top: 50px;
+}
+
+.textoprin .imgbox img{
+    max-width: 340px;
+}
