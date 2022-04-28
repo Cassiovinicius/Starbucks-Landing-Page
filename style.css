@@ -16,7 +16,6 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: aqua;
 }
 
 header {
@@ -59,7 +58,6 @@ header ul li a{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    background-color:whitesmoke;
 }
 
 .textoprin .textobox{
@@ -111,4 +109,56 @@ header ul li a{
 
 .textoprin .imgbox img{
     max-width: 340px;
+}
+.thumb {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.thumb li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.thumb li :hover{
+    transform: translatey(-15px);
+}
+.thumb li img{
+    max-width: 60px;
+}
+
+.sci {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sci li {
+    list-style: none;
+}
+.sci li a{
+    display: inline-block;
+    margin: 5px 0;
+    transform: scale(0.6);
+    filter: invert(1);
+}
+
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #017143;
+    clip-path: circle(600px at right 800px);
 }
